@@ -147,7 +147,7 @@ Usia di luar rentang normal (5–100 tahun)
 ### Exploratory Data Analysis (EDA)
 ### 1. Distribusi Rating
 Distribusi rating digunakan untuk melihat bagaimana penyebaran nilai rating yang diberikan oleh pengguna terhadap buku. Visualisasi ini menggunakan `countplot` dari `seaborn` untuk menghitung jumlah kemunculan setiap nilai rating dari 0 hingga 10. Rating 0 biasanya menunjukkan bahwa pengguna tidak memberikan rating eksplisit (implicit feedback), sedangkan angka lain menunjukkan preferensi eksplisit pengguna.
-![Distribusi Rating Buku](https://raw.githubusercontent.com/angerbit/book_recommendation/refs/heads/main/images/rating%20distribution.png)
+![Distribusi Rating Buku](https://github.com/angerbit/book-recommendation-system/blob/main/images/rating%20distribution.png)
 *Gambar 1: Distribusi Rating Buku Pada Dataset*
 
 Banyak pengguna yang memberikan rating `0` yang menandakan sistem memungkinkan entri tanpa nilai eksplisit. Sementara itu, puncak terlihat pada nilai rating `8`, `9`, dan `10`, mengindikasi adanya bias positif---pengguna lebih sering memberi nilai tinggi daripada rendah.
